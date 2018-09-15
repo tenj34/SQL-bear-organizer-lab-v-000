@@ -16,10 +16,10 @@ end
 
 def select_youngest_bear_and_returns_name_and_age
   "SELECT name, age FROM bears WHERE age = (SELECT MIN(age) FROM bears)"
-
 end
 
 def selects_most_prominent_color_and_returns_with_count
+  
 end
 
 def counts_number_of_bears_with_goofy_temperaments
